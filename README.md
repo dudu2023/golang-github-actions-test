@@ -3,3 +3,6 @@
 
 # golang-github-actions-test
 golang-github-actions-test
+
+#### [如何在github的README中增加Badge标识](https://blog.csdn.net/qq_33204709/article/details/110530471)
+#### [快速在GitHub搭建一个规范的开源项目(三)](https://blog.csdn.net/qq_35211818/article/details/104802853)
