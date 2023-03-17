@@ -1,4 +1,4 @@
-package main
+package calc
 
 import "testing"
 
@@ -9,5 +9,15 @@ func TestAdd(t *testing.T) {
 
 	if ans := Add(-10, -20); ans != -30 {
 		t.Errorf("-10 + -20 expected be -30, but %d got", ans)
+	}
+}
+
+func TestMul(t *testing.T) {
+	if ans := Mul(3, 2); ans != 6 {
+		t.Errorf("3 * 2 expected be 6, but %d got", ans)
+	}
+
+	if ans := Mul(-10, 20); ans != -200 {
+		t.Errorf("-10 * -20 expected be -200, but %d got", ans)
 	}
 }
