@@ -6,7 +6,6 @@ on:
     branches:
       - master
       - main
-	  
 jobs:
   golangci:
     name: lint
